@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace StringConcatWebApp.Controllers
@@ -23,17 +24,25 @@ namespace StringConcatWebApp.Controllers
             return View();
         }
 
-        public IActionResult Result(string name, int repetitions = userInput)
+        public IActionResult Results(string word, int repetitions)
         {
-            var sb = new System.Text.StringBuilder();
-            for (int i = 0; i < userInput; i++)
-            {
-                sb.AppendLine(i.ToString());
-            }
-            System.Console.WriteLine(sb.ToString());
-            ViewData["Message"] = name;
-            ViewData["NumTimes"] = repetitions;
+            // What are you actually appending?
 
+            var sb = new StringBuilder();
+            for (int i = 0; i <= repetitions; i++)
+            {
+                sb.AppendLine(word.ToString());
+            }
+
+            // store that information in a viewdata
+            //Console.WriteLine(sb.ToString());
+            ViewData["Message"] = word;
+            ViewData["NumTimes"] = repetitions;
+            ViewData["Results"] = sb;
+
+            // create the view
+            // display the information on the view
+            // create a link that directs to the index view
             return View();
         }
 

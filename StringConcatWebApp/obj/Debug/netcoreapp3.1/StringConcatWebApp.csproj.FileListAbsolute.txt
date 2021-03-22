@@ -35,3 +35,4 @@ C:\Users\sidma\source\repos\StringConcatWebApp\StringConcatWebApp\obj\Debug\netc
 C:\Users\sidma\source\repos\StringConcatWebApp\StringConcatWebApp\obj\Debug\netcoreapp3.1\StringConcatWebApp.pdb
 C:\Users\sidma\source\repos\StringConcatWebApp\StringConcatWebApp\obj\Debug\netcoreapp3.1\StringConcatWebApp.genruntimeconfig.cache
 C:\Users\sidma\source\repos\StringConcatWebApp\StringConcatWebApp\obj\Debug\netcoreapp3.1\StringConcatWebApp.csproj.CopyComplete
+C:\Users\sidma\source\repos\StringConcatWebApp\StringConcatWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Results.cshtml.g.cs
